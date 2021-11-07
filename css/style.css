@@ -6,3 +6,44 @@
 *{
     box-sizing: border-box;
 }
+
+body{
+    background-image: url(../images/17580.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1100px;
+    margin:0 auto;
+}
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+/*Naglowek*/
+
+.header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__header{
+    display: flex;
+}
+.nav__item a{
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+.nav__item:last-child a{
+    padding-right: 0;
+}
+.header__logo{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--main-color);
+}
